@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piyush-jaiswal-projects/tech-startup-website.git"
+    "url": "git+https://github.com/shsnks/task2_xenonstack.git"
   },
-  "author": "Piyush Jaiswal",
+  "author": "shsnks",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/piyush-jaiswal-projects/tech-startup-website/issues"
+    "url": "https://https://github.com/shsnks/task2_xenonstack/issues"
   },
   "homepage": "",
   "dependencies": {
