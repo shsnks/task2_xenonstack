@@ -1,0 +1,85 @@
+.gallery-section-heading{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 42, 102);
+    font-size: 6vh;
+}
+
+.gallery{
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    margin: auto;
+    padding: auto;
+    overflow: scroll;
+}
+
+.gallery-div{
+    
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fixed{
+    background-attachment: fixed;
+}
+
+.scroll{
+    background-attachment: scroll;
+}
+
+.img1{
+    background-image: url("../../public/media/office/1.jpg");
+}
+
+.img2{
+    background-image: url("../../public/media/office/2.jpg");
+}
+
+.img3{
+    background-image: url("../../public/media/office/3.jpg");
+}
+
+.img4{
+    background-image: url("../../public/media/office/4.jpg");
+}
+
+.img5{
+    background-image: url("../../public/media/office/5.jpg");
+}
+
+.img6{
+    background-image: url("../../public/media/office/6.jpg");
+}
+
+.img7{
+    background-image: url("../../public/media/office/7.jpg");
+}
+
+.img8{
+    background-image: url("../../public/media/office/8.jpg");
+}
+
+.img9{
+    background-image: url("../../public/media/office/9.jpg");
+}
+
+.img10{
+    background-image: url("../../public/media/office/10.jpg");
+}
+
+.img11{
+    background-image: url("../../public/media/office/11.jpg");
+}
+
+.img12{
+    background-image: url("../../public/media/office/12.jpg");
+}
+
+.img13{
+    background-image: url("../../public/media/office/13.jpg");
+}

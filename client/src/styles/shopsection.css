@@ -1,0 +1,33 @@
+.shop-section{
+    margin-top: 8rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.prod-card{
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    /* height: 50vh; */
+}
+
+.prod-img{
+    border-radius: none;
+}
+
+.prod-desg{
+    font-size: 3vh;
+}
+
+.prod-name{
+    font-size: 1.5vw;
+}
+
+.buy-now-btn, .add-cart-btn{
+    width: 15vw;
+    margin: 0.5vw;
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 1px solid rgb(9, 122, 221);
+    padding: 0.2vw;
+    color: rgb(2, 16, 41);
+}

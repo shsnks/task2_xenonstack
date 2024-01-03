@@ -1,0 +1,34 @@
+{
+  "name": "tech-startup-website",
+  "version": "1.0.0",
+  "description": "A website for a technology startup.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run client\" \"npm run server\"",
+    "client:build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush-jaiswal-projects/tech-startup-website.git"
+  },
+  "author": "Piyush Jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyush-jaiswal-projects/tech-startup-website/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^3.0.2",
+    "react-router-dom": "^6.3.0"
+  }
+}

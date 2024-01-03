@@ -1,0 +1,43 @@
+.chatbot-btn{
+    position: fixed;
+    bottom: 0;
+    border: none;
+    z-index: 9;
+    background: transparent;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border-radius: 20rem;
+}
+
+.chatbot-img{
+    width: 10vw;
+    transition: 0.7s;
+}
+
+.chatbot-img:hover{
+    width: 13vw;
+}
+
+
+@media screen and (max-width: 700px) {
+    .chatbot-img{
+        width: 15vw;
+        transition: 0.7s;
+    }
+    
+    .chatbot-img:hover{
+        width: 18vw;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .chatbot-img{
+        width: 21vw;
+        transition: 0.7s;
+    }
+    
+    .chatbot-img:hover{
+        width: 25vw;
+    }
+  }

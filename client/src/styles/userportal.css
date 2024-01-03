@@ -1,0 +1,160 @@
+.portal-section{
+    margin-top: 10rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-section{
+    float: left;
+    margin: 2rem;
+    padding: 0rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    background-color: white;
+    width: 60vw;
+    height: 80vh;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-details-section,.user-account-section{
+    text-align: center;
+    float: right;
+    margin: 1rem;
+    margin-top: 3rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    background-color: white;
+    width: 25vw;
+    height: 70vh;
+    padding: 1rem;
+}
+
+.name, .netAmt{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 42, 102);
+    font-size: 4vh;
+    text-align: center;
+}
+
+
+.username, .email, .totalAmt, .dis{
+    font-family: 'Lato', sans-serif;
+    color: rgb(9, 42, 102);
+    text-align: left;
+}
+
+.netAmt{
+    color: rgb(8, 117, 41);
+}
+
+.buy-btn,.logout-btn{
+    margin: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(9, 42, 102);
+    background-color: rgb(243, 176, 32);
+    width: 20vw;
+    padding: 0.6rem;
+    font-size: 2vw;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.buy-btn:hover{
+    color: white;
+    background-color: rgb(8, 117, 41);
+}
+
+.user-account-section{
+    float: right;
+    justify-content: center;
+    width: 27vw;
+    height: auto;
+}
+
+.logout-btn{
+    background-color: red;
+    color: white;
+}
+
+.shop-btn{
+    background-color: rgb(8, 117, 41);
+}
+
+.clear-btn{
+    background-color: rgb(63, 63, 61);
+}
+
+.logout-btn:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid;
+    border-color: red;
+}
+
+.shop-btn:hover{
+    background-color: white;
+    color: rgb(8, 117, 41);
+    border: 1px solid;
+    border-color: rgb(8, 117, 41);
+}
+
+.clear-btn:hover{
+    background-color: white;
+    color: rgb(63, 63, 61);
+    border: 1px solid;
+    border-color: rgb(63, 63, 61);
+}
+
+@media  screen and (max-width: 1070px) {
+
+    .cart-section{
+        width: 50vw;
+    }
+
+    .user-account-section{
+        width: 25vw;
+    }
+}
+
+@media  screen and (max-width: 770px) {
+    .user-account-section{
+        width: 20vw;
+    }
+
+    .logout-btn{
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width: 700px) {
+
+    .portal-section{
+        margin-top: 2rem;
+    }
+
+
+    .cart-section{
+        width: 70vw;
+    }
+    .user-details-section{
+        width: 70vw;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .user-account-section{
+        width: 70vw;
+        
+    }
+
+    .logout-btn,.buy-btn{
+        width: 50vw;
+        font-size: 4vw;
+        margin: 0;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,138 @@
+.articles-section{
+    margin-top: 6rem;
+}
+
+.article-section-title, .post-title{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 42, 102);
+    font-size: 6vh;
+}
+
+.articles-grid{
+    /* background-color: white; */
+    width: 80vw;
+    margin: auto;
+    padding: auto;
+    border-radius: 0.5rem;
+    /* box-shadow: 1px 1px 5px 5px rgb(154, 193, 231); */
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.article-card{
+    width: 75vw;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid rgb(182, 213, 240);
+    border-radius: 2rem;
+}
+
+.post-image{
+  border-radius: 2rem;
+  width: 30vw;
+  height: 20vw;   
+  float: left;
+  margin: 1rem;
+}
+
+.post-title{
+    text-align: left;
+    font-size: 2vw;
+}
+
+.post-para{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    line-height: 4vh;
+}
+
+.post-extension-link{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    color: rgb(9, 42, 102);
+}
+
+@media screen and (max-width: 850px) {
+
+    .post-para{
+        font-size: 1.5vw;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .articles-section{
+        margin-top: 8rem;
+    }
+
+    .articles-grid{
+        display: block;
+    }
+
+    .post-image{
+        float: none;
+        width: 45vw;
+        height: 30vw;
+        margin: 0.5rem;
+    }
+
+    .article-card{
+        text-align: center;
+        width: 50vw;
+        margin: auto;
+        padding: auto;
+        margin-top: 1rem;
+    }
+
+    .post-title{
+        text-align: center;
+        font-size: 3vw;
+    }
+    
+    .post-para{
+        text-align: justify;
+        font-size: 2vw;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .articles-section{
+        margin-top: 2rem;
+    }
+
+    .post-image{
+        width: 60vw;
+        height: 40vw;
+        margin: 0.5rem;
+    }
+
+    .article-card{
+        width: 70vw;
+    }
+
+    .post-title{
+        font-size: 4vw;
+    }
+    
+    .post-para{
+        font-size: 3vw;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .post-title{
+        font-size: 5vw;
+    }
+    
+    .post-para{
+        font-size: 4vw;
+    }
+
+  }

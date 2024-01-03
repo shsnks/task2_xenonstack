@@ -1,0 +1,83 @@
+.user-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12vw;
+}
+
+.registration-section, .login-section{
+    width: 35vw;
+    /* height: 70vh; */
+    background-color: white;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.reg-section-heading, .login-section-heading{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 42, 102);
+    font-size: 4vh;
+}
+
+.register-input, .login-input{
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    outline: none;
+    font-size: 2vw;
+    font-family: monospace;
+    margin: 1rem;
+}
+.check{
+}
+
+.register-btn, .login-btn{
+    font-size: 2vw;
+    background-color: rgb(21, 63, 141);
+    border: none;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    width: 22vw;
+}
+
+.checkBox{
+    color: grey;
+}
+
+.register-btn:hover, .login-btn:hover{
+    
+    background-color: aliceblue;
+    color: rgb(21, 63, 141);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+
+    .registration-section, .login-section{
+        width: 70vw;
+    }
+
+    .reg-section-heading, .login-section-heading{
+        font-size: 5vh;
+    }
+
+    .register-input, .login-input{
+        font-size: 4vw;
+    }
+
+    .register-btn, .login-btn{
+        font-size: 4vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .register-input, .login-input{
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,105 @@
+.team-section{
+    margin-top: 10rem;
+}
+
+.team-section-heading{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 42, 102);
+    font-size: 6vh;
+}
+
+.team-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member-card{
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid rgb(182, 213, 240);
+    width: 18vw;
+    text-align: center;
+    /* box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5); */
+    /* background-color: white; */
+}
+
+.member-img{
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.member-name{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(9, 42, 102);
+    font-size: 4vh;
+}
+
+.member-desg{
+    font-family: 'Lato', sans-serif;
+    font-size: 2vh;
+}
+
+@media  screen and (max-width: 750px) {
+    .member-card{
+        width: 30vw;
+        margin: 1rem;
+    }
+
+    .member-img{
+        width: 15vw;
+    }
+
+    .member-name{
+        font-size: 5vh;
+    }
+
+    .member-desg{
+        font-size: 3vh;
+    }
+}
+
+@media  screen and (max-width: 700px) {
+
+    .team-section{
+        margin-top: 3rem;
+    }
+
+}
+
+@media  screen and (max-width: 560px) {
+    .member-card{
+        width: 60vw;
+        margin: 1rem;
+    }
+
+    .member-img{
+        width: 15vw;
+        float: left;
+    }
+
+    .member-name{
+        font-size: 5vh;
+    }
+
+    .member-desg{
+        margin-top: 3rem;
+        font-size: 3vh;
+    }
+
+}
+
+@media  screen and (max-width: 400px) {
+
+    .member-img{
+        width:20vw;
+        float: none;
+    }
+
+    .member-desg{
+        margin-top: 0rem;
+    }
+
+}

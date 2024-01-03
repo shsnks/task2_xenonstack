@@ -1,0 +1,141 @@
+.chat-section{
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.chat-btn-div{
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.chat-btn{
+    background: none;
+    border: none;
+    font-size: 3vw;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 2rem;
+    background-color: rgb(9, 42, 102);
+}
+
+.chat-btn:hover{
+    color: rgb(9, 42, 102);
+    background-color: white;
+    border: 1px solid rgb(9, 42, 102);
+}
+
+@media screen and (max-width: 600px) {
+    .chat-section{
+        margin-top: 5rem;
+    }
+
+    .chat-btn{
+    width: 60vw;
+    font-size: 4vw;
+    }
+}
+
+#chatBox{
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
+    height: 440px;
+    width: 270px;
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+    border: 1px solid rgb(9, 42, 102);
+    justify-content: center;
+    overflow: auto;
+}
+
+.chat-close-btn{
+    background: none;
+    border: none;
+    font-size: 20px;
+    float: right;
+    margin: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.chat-bar{
+    position: absolute;
+    bottom: 0rem;
+    border-radius: 20px;
+    border: 1px solid rgb(9, 42, 102);
+    font-size: 18px;
+    width: 170px;
+    margin: 10px;
+    padding: 2px;
+}
+
+.msg-bar{
+    /* position: absolute;
+    right: 0;
+    bottom: 3rem; */
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: 170px;
+    margin: 10px;
+    padding: 2px;
+    background-color: aliceblue;
+    color: rgb(9, 42, 102);
+    float: right;
+}
+
+.send-btn{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 20px;
+    background-color: rgb(11, 56, 139);
+    color: white;
+    border: none;
+    font-size: 17px;
+    width: 70px;
+    padding: 5.5px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.send-btn:hover{
+    background-color: rgb(35, 93, 201);
+}
+
+.chat-bar:focus{
+    outline: none;
+}
+
+.show{
+    display: block;
+    transition: 2s;
+}
+
+.hide{
+    display: none;
+    transition: 2s;
+}
+
+.wel-div{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    color: rgb(4, 60, 109);
+    margin: auto;
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+
