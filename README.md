@@ -8,6 +8,8 @@
 
 ## Services and product 
 
+![services and products](https://github.com/shsnks/task2_xenonstack/assets/93263729/9fddc15a-e89a-46cd-b03b-3ff096c6612c)
+
 ## Blog page
 
 ![blogpage](https://github.com/shsnks/task2_xenonstack/assets/93263729/67281cb1-2bc4-4933-92d1-45da3dbcd945)
