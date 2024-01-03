@@ -20,4 +20,6 @@
 
 ![search bar](https://github.com/shsnks/task2_xenonstack/assets/93263729/caa8818f-1b0e-4c6c-ac58-e794f14c827b)
 
+Deployed link : https://tech-startup-website.vercel.app/
+
 
